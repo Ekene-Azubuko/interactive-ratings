@@ -45,13 +45,13 @@ body p, a {
 .margin{
     margin-left:30px;
 }
-/* .pagination a:hover {
+.pagination a:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
-} */
-/* .pagination a:active{
+}
+.pagination a:focus{
     background-color: hsl(217, 12%, 63%);
-} */
+}
 .btn {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
