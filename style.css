@@ -102,8 +102,8 @@ body p, a {
     }
 }
 
-@media screen and (min-width:401px) and (max-width:950px) {
+/* @media screen and (min-width:401px) and (max-width:950px) {
     .container {
         width: 50%;
     }
-}
+} */
