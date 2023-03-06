@@ -45,11 +45,11 @@ function buttonAnimation(currentButton) {
 
     activeButton = document.querySelector(".key" + currentButton);
     // activeButton.classList.add("animation");
-    activeButton.style.backgroundColor= "hsl(217, 12%, 63%)";
+//     activeButton.style.backgroundColor= "hsl(217, 12%, 63%)";
   
-    setTimeout(function() {
-      activeButton.style.backgroundColor= "hsla(216, 12%, 54%, 0.158)";
-    },4000);
+//     setTimeout(function() {
+//       activeButton.style.backgroundColor= "hsla(216, 12%, 54%, 0.158)";
+//     },4000);
   
   }
 
