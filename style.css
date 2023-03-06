@@ -51,6 +51,7 @@ body p, a {
 }
 .pagination a:focus{
     background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 .btn {
     background-color: hsl(25, 97%, 53%);
