@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  
+  
+</head>
+<body>
+  <main class="container first" id="first">
+    <!-- Rating state start -->
+    <img class="star" src="./images/icon-star.svg" alt="">
+
+    <h2 class="mt-2">How did we do?</h2>
+  
+    <p class="pt-2">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <div class="pagination">
+  
+      <a class=" key1 ms" href="#">1</a>
+      <a class=" key2 ms margin  " href="#">2</a>
+      <a class=" key3 ms margin" href="#">3</a>
+      <a class=" key4 ms margin" href="#">4</a>
+      <a class=" key5 ms margin" href="#">5</a>
+    </div>
+  
+    <!-- <a href="#" class="btn ">Submit</a> -->
+    <div class="d-grid gap-2 mt-4">
+      <a href="#" class="btn " type="button" onclick="display()">Submit</a>
+    </div>
+  </main>
+
+ 
+
+  
+  
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  <div class="second container" id="second">
+    <img src="./images/illustration-thank-you.svg" alt="">
+    <!-- Rating state end -->
+  
+    <!-- Thank you state start -->
+  
+    <p class="selection"></p>
+  
+    <h2>Thank you!</h2>
+  
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+  
+    <!-- Thank you state end -->
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
